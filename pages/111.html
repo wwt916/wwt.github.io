@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>
+
+		body{
+ 			background-image: url("../assets/Images/bg.jpg");
+			background-repeat: repeat;
+			background-size: 313px 144px;
+		}
+
+		.D1{
+   			width:100px;
+    		height:100px;
+		    position:relative;
+		    animation:TestMove2 2s infinite alternate; /*IE*/
+		    -moz-animation:TestMove2 2s infinite alternate; /*FireFox*/
+		    -webkit-animation:TestMove2 2s infinite alternate; /*Chrome, Safari*/
+		}
+		@keyframes TestMove2{
+		    from {top:5%;}
+		    to {top:10%;}
+		}
+		@-moz-keyframes TestMove2{
+		    from {top:5%;}
+		    to {top:10%;}
+		}
+		@-webkit-keyframes TestMove2{
+		    from {top:5%;}
+		    to {top:10%;}
+		}
+		.D2{
+		    width:100px;
+		    height:100px;
+		    position:relative;
+		    animation:TestMove3 2s infinite alternate; /*IE*/
+		    -moz-animation:TestMove3 2s infinite alternate; /*FireFox*/
+		    -webkit-animation:TestMove3 2s infinite alternate; /*Chrome, Safari*/
+		}
+		@keyframes TestMove3{
+		    from {top:13%;}
+		    to {top:8%;}
+		}
+		@-moz-keyframes TestMove3{
+		    from {top:13%;}
+		    to {top:8%;}
+		}
+		@-webkit-keyframes TestMove3{
+		    from {top:13%;}
+		    to {top:8%;}
+		}
+	</style>
+<body>
+	<div><img src="../assets/Images/logo.png" height="340" width="736" style="position:absolute; left:-0.5cm; top: -1cm;"></div>
+	<div class="D2"><img src="../assets/Images/cd1.png" height="148" width="322" style="position:absolute; left:15cm; top: -1cm;"></div>
+	<div class="D1"><img src="../assets/Images/cd2.PNG" height="148" width="322" style="position:absolute; left:19cm; top: -1cm;"></div>
+	<div class="D2"><img src="../assets/Images/cd3.PNG" height="148" width="322" style="position:absolute; left:23cm; top: -6.3cm;"></div>
+	<div class="D1"><img src="../assets/Images/cd4.PNG" height="148" width="322" style="position:absolute; left:27cm; top: -6.3cm;"></div>
+	<div class="D2"><img src="../assets/Images/cd5.PNG" height="148" width="322" style="position:absolute; left:31.5cm; top: -11.5cm;"></div>
+
+</html>
