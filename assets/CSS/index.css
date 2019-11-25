@@ -75,8 +75,6 @@
             text-indent: 56px; 
             z-index:3;
         }
-
-
         footer{
             position: fixed;
             bottom: 0;
@@ -226,6 +224,43 @@
             from {top:22.5cm;}
             to {top:20cm;}
         }
+	.D6{
+            position:absolute;left:23%;
+            animation:TestMove7 2s infinite alternate; /*IE*/
+            -moz-animation:TestMove7 2s infinite alternate; /*FireFox*/
+            -webkit-animation:TestMove7 2s infinite alternate; /*Chrome, Safari*/
+        }
+        @keyframes TestMove7{
+            from {top:455%;}
+            to {top:460%;}
+        }
+        @-moz-keyframes TestMove7{
+            from {top:455%;}
+            to {top:460%;}
+        }
+        @-webkit-keyframes TestMove7{
+            from {top:455%;}
+            to {top:460%;}
+        }
+	.D7{
+            position:absolute;left:43%;
+            animation:TestMove8 2s infinite alternate; /*IE*/
+            -moz-animation:TestMove8 2s infinite alternate; /*FireFox*/
+            -webkit-animation:TestMove8 2s infinite alternate; /*Chrome, Safari*/
+        }
+        @keyframes TestMove8{
+            from {top:460%;}
+            to {top:455%;}
+        }
+        @-moz-keyframes TestMove8{
+            from {top:460%;}
+            to {top:455%;}
+        }
+        @-webkit-keyframes TestMove8{
+            from {top:460%;}
+            to {top:455%;}
+        }
+
 		.snip1573 {
 			background-color: #000;
 			display: inline-block;
